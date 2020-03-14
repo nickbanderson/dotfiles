@@ -1,28 +1,28 @@
 #!/bin/bash
 
 apps=(
- "code Desktop/arch.code-workspace"
  "termite -e ranger"
+ "code dotfiles"
  "chromium"
 )
 
 workspaces=(
-"10"
 "9"
+"10"
 "1"
 )
 
 # counter of opened windows
-owNB=0
+countOpenWindows=0
 
 # add paths of apps to execPath
 execPath=( '/usr/bin/' )
 
 for iwin in ${!apps[*]}
 do
-    while [ "$owNB" -lt "$iwin" ] # wait before start other programs
+    while [ "$countOpenWindows" -lt "$iwin" ] # wait before start other programs
     do
-        owNB=$(wmctrl -l | wc -l) # Get number of actual opened windows
+        countOpenWindows=$(wmctrl -l | wc -l) # Get number of actual opened windows
     done
 
     i3-msg workspace ${workspaces[$iwin]} # move in wanted workspace

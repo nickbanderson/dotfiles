@@ -1,1 +1,1 @@
-/home/nick/Documents/arch.md
+/home/nick/docs/arch.md
