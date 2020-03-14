@@ -45,7 +45,7 @@ xinput --set-prop 'Logitech M510' 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Profile Enabled' 0, 1
 
 # set sensitivities
-xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Speed' -.3
+xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Speed' -.1
 
 # DE/WM
 # exec startplasma-x11

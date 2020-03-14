@@ -1,5 +1,7 @@
 #!/bin/bash
 
+xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Profile Enabled' 0, 1 ; xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Speed' -.1
+
 apps=(
  "termite -e ranger"
  "code dotfiles"
@@ -28,6 +30,8 @@ do
     ${execPath}/${apps[$iwin]} & # start the wanted app
     sleep 1
 done
+
+
 
 ####### ABSOLUTELY OPTIONAL ########
 ## inject message(s) into terminal (first one created : /dev/pts/0)
