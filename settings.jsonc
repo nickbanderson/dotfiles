@@ -1,0 +1,21 @@
+{
+    "editor.fontFamily": "'Roboto Mono'",
+    "editor.fontSize": "14'",
+    "workbench.colorTheme": "Default High Contrast",
+    "window.menuBarVisibility": "visible",
+    "breadcrumbs.enabled": false,
+    "editor.tabSize": 2,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [120],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#FFFFFF40"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    // Enables File->Exit to save which editors are open for a workspace
+    "files.hotExit": "onExitAndWindowClose"
+}
