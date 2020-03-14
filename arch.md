@@ -1,1 +1,0 @@
-/home/nick/docs/arch.md
