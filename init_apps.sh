@@ -24,9 +24,9 @@ do
     do
         countOpenWindows=$(wmctrl -l | wc -l) # Get number of actual opened windows
     done
-
     i3-msg workspace ${workspaces[$iwin]} # move in wanted workspace
     ${execPath}/${apps[$iwin]} & # start the wanted app
+    sleep 1
 done
 
 ####### ABSOLUTELY OPTIONAL ########

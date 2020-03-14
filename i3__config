@@ -152,3 +152,5 @@ bindsym $mod+c i3-msg exec chromium
 # startup programs
 exec_always --no-startup-id killall polybar; polybar barboi >> /tmp/polybar_barboi.log 2>&1 &
 exec --no-startup-id $HOME/dotfiles/init_apps.sh
+
+exec i3-msg workspace $ws1
