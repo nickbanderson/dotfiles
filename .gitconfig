@@ -1,1 +1,7 @@
-/home/nick/.gitconfig
+[credential]
+	helper = store
+[user]
+	name = nickbanderson
+	email = nick.b.anderson4@gmail.com
+[core]
+	editor = vim
