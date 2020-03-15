@@ -88,7 +88,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # set wallpaper
-exec_always feh --bg-scale ~/media/pictures/black_blue.jpg
+#exec_always feh --bg-scale ~/media/pictures/black_blue.jpg
 
 set $ws1 "1"
 set $ws2 "2"
@@ -151,5 +151,3 @@ bindsym $mod+c exec chromium
 
 # startup programs
 exec --no-startup-id $HOME/util/i3initrc 
-
-exec i3-msg workspace $ws1
