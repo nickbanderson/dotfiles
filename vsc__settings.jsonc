@@ -17,5 +17,6 @@
         "source.fixAll.markdownlint": true
     },
     // Enables File->Exit to save which editors are open for a workspace
-    "files.hotExit": "onExitAndWindowClose"
+    "files.hotExit": "onExitAndWindowClose",
+    "explorer.confirmDelete": false
 }
