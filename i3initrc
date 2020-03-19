@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# mouse, TODO: update for basilisk/trackpad
+# mouse TODO: basilisk/touchpad
 #xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Profile Enabled' 0, 1 ; xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Speed' -.1
 
 # polybar
