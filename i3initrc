@@ -9,6 +9,8 @@ for m in $(polybar --list-monitors | cut -d":" -f1); do
 done
 killall polybar; polybar barboi >> /tmp/polybar_barboi.log 2>&1 &
 
+# polykit authentication agent
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 apps=(
  "termite -e vifm"
