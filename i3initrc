@@ -5,12 +5,11 @@
 
 # polybar
 for m in $(polybar --list-monitors | cut -d":" -f1); do
-    MONITOR=$m polybar --reload example &
+    MONITOR=$m polybar --reload barboi >> /tmp/polybar_barboi_$m.log 2>&1 &
 done
-killall polybar; polybar barboi >> /tmp/polybar_barboi.log 2>&1 &
 
-# polykit authentication agent
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/sbin/nm-applet &
 
 apps=(
  "termite -e vifm"
