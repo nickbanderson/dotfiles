@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # mouse TODO: basilisk/touchpad
+# "unable to find device Razer Basilisk X Hyperspeed"
+#xinput --set-prop 'Razer Razer Basilisk X Hyperspeed' 'libinput Accel Profile Enabled' 0, 1 ; xinput --set-prop 'Razer Razer Basilisk X Hyperspeed' 'libinput Accel Speed' -.1
 #xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Profile Enabled' 0, 1 ; xinput --set-prop 'Logitech Gaming Mouse G502' 'libinput Accel Speed' -.1
 
 # polybar
