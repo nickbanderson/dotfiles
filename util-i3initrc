@@ -6,7 +6,7 @@ done
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /sbin/nm-applet &
-xrandr --output DP-1 --left-of eDP-1
+xrandr --output DP-1 --right-of eDP-1
 xinput --set-prop pointer:'Razer Razer Basilisk X HyperSpeed' 'libinput Accel Profile Enabled' 0, 1
 
 apps=(
