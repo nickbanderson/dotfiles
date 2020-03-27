@@ -10,6 +10,7 @@ alias du='du -h'
 PS1='[\u@\h \W]\$ '
 
 export PATH="$PATH:$HOME/util"
+export EDITOR='vim'
 # set -o vi
 
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
