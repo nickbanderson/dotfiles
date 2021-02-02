@@ -6,13 +6,14 @@ done
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /sbin/nm-applet &
+/usr/bin/blueman-applet &
 xrandr --output DP-1 --right-of eDP-1
 xinput --set-prop pointer:'Razer Razer Basilisk X HyperSpeed' 'libinput Accel Profile Enabled' 0, 1
 
 apps=(
- "termite -e vifm"
+ "termite -e ranger"
  "code dotfiles"
- "firefox-developer-edition"
+ "chromium"
 )
 workspaces=(
 "9"
